@@ -25,10 +25,10 @@
 			<intent-filter>
 
 				<action
-					android:name="android.intent.action.MAIN"/>
+					android:name="com.my.MainActivity"/>
 
 				<category
-					android:name="android.intent.category.LAUNCHER"/>
+					android:name="android.intent.category.DEFAULT"/>
 
 			</intent-filter>
 
@@ -37,6 +37,21 @@
 		<meta-data
 			android:name="android.max_aspect"
 			android:value="4.0"/>
+
+		<activity
+			android:name=".Splash">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
 
 	</application>
 
